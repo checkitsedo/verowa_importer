@@ -72,13 +72,13 @@ CREATE TABLE tx_verowaimporter_domain_model_event (
 # Table structure for table 'tx_verowaimporter_domain_model_person'
 #
 CREATE TABLE tx_verowaimporter_domain_model_person (
-	name varchar(255) NOT NULL DEFAULT '',
+  name varchar(255) NOT NULL DEFAULT '',
   firstname varchar(255) NOT NULL DEFAULT '',
   lastname varchar(255) NOT NULL DEFAULT '',
   person_id int(11) unsigned NOT NULL,
-	phone varchar(255) NOT NULL DEFAULT '',
-	profession varchar(255) NOT NULL DEFAULT '',
-	email varchar(255) NOT NULL DEFAULT '',
+  phone varchar(255) NOT NULL DEFAULT '',
+  profession varchar(255) NOT NULL DEFAULT '',
+  email varchar(255) NOT NULL DEFAULT '',
   url varchar(1024) NOT NULL DEFAULT '',
   url_type int(11) unsigned NOT NULL,
 
@@ -100,4 +100,30 @@ CREATE TABLE tx_verowaimporter_domain_model_room (
   order int(11) unsigned NOT NULL,
 
   UNIQUE id (id),
+);
+
+#
+# Table structure for table 'tx_verowaimporter_event_person_mm'
+#
+CREATE TABLE tx_verowaimporter_event_person_mm (
+    uid_local int(11) unsigned DEFAULT 0 NOT NULL COMMENT 'tx_verowaimporter_domain_model_event.uid',
+    uid_foreign int(11) unsigned DEFAULT 0 NOT NULL COMMENT 'tx_verowaimporter_domain_model_person.uid',
+    sorting int(11) DEFAULT '0' NOT NULL,
+
+--    PRIMARY KEY (uid_local,uid_foreign),
+    KEY uid_local (uid_local),
+    KEY uid_foreign (uid_foreign)
+);
+
+#
+# Table structure for table 'tx_verowaimporter_event_room_mm'
+#
+CREATE TABLE tx_verowaimporter_event_room_mm (
+    uid_local int(11) unsigned DEFAULT 0 NOT NULL COMMENT 'tx_verowaimporter_domain_model_event.uid',
+    uid_foreign int(11) unsigned DEFAULT 0 NOT NULL COMMENT 'tx_verowaimporter_domain_model_room.uid',
+    sorting int(11) DEFAULT '0' NOT NULL,
+
+--    PRIMARY KEY (uid_local,uid_foreign),
+    KEY uid_local (uid_local),
+    KEY uid_foreign (uid_foreign)
 );
