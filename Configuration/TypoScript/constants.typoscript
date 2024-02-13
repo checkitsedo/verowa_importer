@@ -1,0 +1,14 @@
+plugin.tx_verowaimporter_eventlist {
+	view {
+		# cat=plugin.tx_verowaimporter_eventlist/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:verowa_importer/Resources/Private/Templates/
+		# cat=plugin.tx_verowaimporter_eventlist/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:verowa_importer/Resources/Private/Partials/
+		# cat=plugin.tx_verowaimporter_eventlist/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:verowa_importer/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_verowaimporter_eventlist//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}
