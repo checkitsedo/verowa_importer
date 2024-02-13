@@ -1,0 +1,101 @@
+# ===============================================
+# FE-Plugin configuration for EXT:verowa_importer
+# ===============================================
+plugin.tx_verowaimporter_eventlist {
+	mvc.callDefaultActionIfActionCantBeResolved = 1
+	
+    view {
+		templateRootPaths {
+			0 = EXT:verowa_importer/Resources/Private/Templates/
+			1 = {$plugin.tx_verowaimporter_eventlist.view.templateRootPath}
+		}
+		
+		partialRootPaths {
+			0 = EXT:verowa_importer/Resources/Private/Partials/
+			1 = {$plugin.tx_verowaimporter_eventlist.view.partialRootPath}
+		}
+		
+		layoutRootPaths {
+			0 = EXT:verowa_importer/Resources/Private/Layouts/
+			1 = {$plugin.tx_verowaimporter_eventlist.view.layoutRootPath}
+		}
+		
+		widget.Checkitsedo\VerowaImporter\ViewHelpers\Widget\PaginateViewHelper.templateRootPath = EXT:verowa_importer/Resources/Private/Templates/
+	}
+	
+	# ====================================
+	# Settings available inside Controller and View by accessing $this->settings or {settings.xyz}
+	# ====================================
+	settings {
+		cssFile = {$plugin.tx_verowaimporter_eventlist.settings.cssFile}
+		
+		paginateConfiguration {
+			itemsPerPage = 10
+			insertAbove = 0
+			insertBelow = 1
+			maximumNumberOfLinks = 10
+			addQueryStringMethod = GET
+		}
+		
+		# --------------
+		#  List
+		# --------------
+		list {
+			# Paginate configuration.
+			paginate {
+                class = GeorgRinger\NumberedPagination\NumberedPagination
+				itemsPerPage = 10
+				insertAbove = 1
+				insertBelow = 1
+				maximumNumberOfLinks = 3
+			}
+		}
+	}
+	
+    persistence {
+        storagePid = {$plugin.tx_verowaimporter_eventlist.persistence.storagePid}
+        #recursive = 1
+    }
+
+    features {
+        #skipDefaultArguments = 1
+        # if set to 1, the enable fields are ignored in BE context
+        ignoreAllEnableFieldsInBe = 0
+        # Should be on by default, but can be disabled if all action in the plugin are uncached
+        requireCHashArgumentForActionArguments = 1
+    }
+}
+
+# these classes are only used in auto-generated templates
+plugin.tx_verowaimporter._CSS_DEFAULT_STYLE (
+    textarea.f3-form-error {
+        background-color:#FF9F9F;
+        border: 1px #FF0000 solid;
+    }
+
+    input.f3-form-error {
+        background-color:#FF9F9F;
+        border: 1px #FF0000 solid;
+    }
+
+    .tx-verowa-importer table {
+        border-collapse:separate;
+        border-spacing:10px;
+    }
+
+    .tx-verowa-importer table th {
+        font-weight:bold;
+    }
+
+    .tx-verowa-importer table td {
+        vertical-align:top;
+    }
+
+    .typo3-messages .message-error {
+        color:red;
+    }
+
+    .typo3-messages .message-ok {
+        color:green;
+    }
+)
