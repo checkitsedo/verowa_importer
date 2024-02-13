@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:verowa_importer/Resources/Private/Language/locallang" date="2021-08-08T23:07:21Z" product-name="verowa_importer">
+		<header/>
+		<body>
+			<trans-unit id="plugin.title" resname="plugin.title">
+				<source>Event</source>
+			</trans-unit>
+			<trans-unit id="plugin.eventlist.title" resname="plugin.eventlist.title">
+				<source>Verowa Event List</source>
+			</trans-unit>
+			<trans-unit id="plugin.eventdetails.title" resname="plugin.eventdetails.title">
+				<source>Verowa Event Details</source>
+			</trans-unit>
+			<trans-unit id="plugin.limitrecords" resname="plugin.limitrecords">
+				<source>Limit Records</source>
+			</trans-unit>
+			<trans-unit id="plugin.limitrecords.description" resname="plugin.limitrecords.description">
+				<source>Specify how many records should be displayed (for the home page)</source>
+			</trans-unit>
+			<trans-unit id="plugin.detailpage" resname="plugin.detailpage">
+				<source>Detail page</source>
+			</trans-unit>
+			<trans-unit id="plugin.detailpage.description" resname="plugin.detailpage.description">
+				<source>Select a page that contains the plugin with a selected Detail mode</source>
+			</trans-unit>
+			<trans-unit id="plugin.detailmode" resname="plugin.detailmode">
+				<source>Detail Mode</source>
+			</trans-unit>
+			<trans-unit id="plugin.detailmode.description" resname="plugin.detailmode.description">
+				<source>Select a mode to show the event details when a list or slider item is clicked</source>
+			</trans-unit>
+			<trans-unit id="plugin.detailmode.modal" resname="plugin.detailmode.modal">
+				<source>Modal Window</source>
+			</trans-unit>
+			<trans-unit id="plugin.detailmode.page" resname="plugin.detailmode.page">
+				<source>Detail Page</source>
+			</trans-unit>
+			<trans-unit id="plugin.detailmode.none" resname="plugin.detailmode.none">
+				<source>No link at all</source>
+			</trans-unit>
+			<trans-unit id="plugin.listpage" resname="plugin.listpage">
+				<source>List page</source>
+			</trans-unit>
+			<trans-unit id="plugin.listpage.description" resname="plugin.listpage.description">
+				<source>Select a page that contains the plugin with a selected List mode</source>
+			</trans-unit>
+			<trans-unit id="plugin.singlerecord" resname="plugin.singlerecord">
+				<source>Record of single event</source>
+			</trans-unit>
+			<trans-unit id="plugin.singlerecord.description" resname="plugin.singlerecord.description">
+				<source>This record is shown when the plugin is called in the frontend without further parameters. When a event is set as get parameter from the list plugin, it will overwrite your selection.</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event" resname="tx_verowaimporter_domain_model_event">
+				<source>Event</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.event_id" resname="tx_verowaimporter_domain_model_event.event_id">
+				<source>Event Id</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.date_from" resname="tx_verowaimporter_domain_model_event.date_from">
+				<source>Date From</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.date_to" resname="tx_verowaimporter_domain_model_event.date_to">
+				<source>Date To</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.title" resname="tx_verowaimporter_domain_model_event.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaconnect_domain_model_event.hide_time" resname="tx_verowaconnect_domain_model_event.hide_time">
+				<source>Hide Time</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.short_desc" resname="tx_verowaimporter_domain_model_event.short_desc">
+				<source>Short Desc</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.long_desc" resname="tx_verowaimporter_domain_model_event.long_desc">
+				<source>Long Desc</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.childcare_id" resname="tx_verowaimporter_domain_model_event.childcare_id">
+				<source>Childcare Id</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.subscribe_date" resname="tx_verowaimporter_domain_model_event.subscribe_date">
+				<source>Subscribe Date</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.subscribe_time" resname="tx_verowaimporter_domain_model_event.subscribe_time">
+				<source>Subscribe Time</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.subscribe_person_id" resname="tx_verowaimporter_domain_model_event.subscribe_person_id">
+				<source>Subscribe Person Id</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.baptism_offer_id" resname="tx_verowaimporter_domain_model_event.baptism_offer_id">
+				<source>Baptism Offer Id</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.event_type" resname="tx_verowaimporter_domain_model_event.event_type">
+				<source>Event Type</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.event_state" resname="tx_verowaimporter_domain_model_event.event_state">
+				<source>Event State</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.date_text" resname="tx_verowaimporter_domain_model_event.date_text">
+				<source>Date Text</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.image_url" resname="tx_verowaimporter_domain_model_event.image_url">
+				<source>Image Url</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.subscriptions" resname="tx_verowaimporter_domain_model_event.subscriptions">
+				<source>Subscriptions</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.organizer" resname="tx_verowaimporter_domain_model_event.organizer">
+				<source>Organizer</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.rooms" resname="tx_verowaimporter_domain_model_event.rooms">
+				<source>Rooms</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.room_id" resname="tx_verowaimporter_domain_model_event.room_id">
+				<source>Room Id</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.room_name" resname="tx_verowaimporter_domain_model_event.room_name">
+				<source>Room Name</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.room_public_name" resname="tx_verowaimporter_domain_model_event.room_public_name">
+				<source>Room Public Name</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.room_location_name" resname="tx_verowaimporter_domain_model_event.room_location_name">
+				<source>Room Location Name</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.room_location_url" resname="tx_verowaimporter_domain_model_event.room_location_url">
+				<source>Room Location Url</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_event.room_location_url_is_external" resname="tx_verowaimporter_domain_model_event.room_location_url_is_external">
+				<source>Room Location Url Is External</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_person" resname="tx_verowaimporter_domain_model_person">
+				<source>Organizer</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_person.person_id" resname="tx_verowaimporter_domain_model_person.person_id">
+				<source>Organizer Id</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_person.organizer_name" resname="tx_verowaimporter_domain_model_person.organizer_name">
+				<source>Organizer Name</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_person.organizer_phone" resname="tx_verowaimporter_domain_model_person.organizer_phone">
+				<source>Organizer Phone</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_person.organizer_profession" resname="tx_verowaimporter_domain_model_person.organizer_profession">
+				<source>Organizer Profession</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_person.organizer_email" resname="tx_verowaimporter_domain_model_person.organizer_email">
+				<source>Organizer Email</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_room" resname="tx_verowaimporter_domain_model_room">
+				<source>Room</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_room.room_id" resname="tx_verowaimporter_domain_model_room.room_id">
+				<source>Room Id</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_room.room_name" resname="tx_verowaimporter_domain_model_room.room_name">
+				<source>Room Name</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_room.room_public_name" resname="tx_verowaimporter_domain_model_room.room_public_name">
+				<source>Room Public Name</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_room.room_location_name" resname="tx_verowaimporter_domain_model_room.room_location_name">
+				<source>Room Location Name</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_room.room_location_url" resname="tx_verowaimporter_domain_model_room.room_location_url">
+				<source>Room Location Url</source>
+			</trans-unit>
+			<trans-unit id="tx_verowaimporter_domain_model_room.room_location_url_is_external" resname="tx_verowaimporter_domain_model_room.room_location_url_is_external">
+				<source>Room Location Url Is External</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
